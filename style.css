@@ -1,0 +1,44 @@
+/*
+Theme Name: ALCHUSNAINI
+Theme URI: https://www.waliweb.com/
+Description: construction-realestate.
+Author: mas Ali
+URI: https://www.waliweb.com/
+Template: hitmag
+Version: 1.0.0
+Tags: blog, custom-Theme, translation-ready
+*/
+@import url("../hitmag/style.css");
+body {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.hm-nav-container {
+  background-color: #336600;
+}
+.main-navigation {
+	margin : 3px auto;
+	margin-bottom : 0;
+	border-radius: 3px;
+	background: #336600;
+}
+.responsive-mainnav,
+.responsive-topnav {
+  background: #336600;
+  display: none;
+  padding-right: 30px;
+}
+
+
+
+.site-footer {
+/*  background: #333;*/
+  background: #336600;
+}
+.site-info {
+/*  background: #333;*/
+  background: #3e7b01;
+}
