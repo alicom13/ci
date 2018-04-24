@@ -61,31 +61,6 @@
 
 		<div class="header-main-area">
 			<div class="hm-container">
-			<div class="site-branding">
-				<div class="site-branding-content">
-					<div class="hm-logo">
-						<!--?LOGO BUANG
-						php hitmag_the_custom_logo();
-						?-->
-					</div><!-- .hm-logo -->
-
-					<div class="hm-site-title">
-						<?php
-						if ( is_front_page() || is_home() ) : ?>
-							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<?php else : ?>
-							<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-						<?php
-						endif;
-
-						$description = get_bloginfo( 'description', 'display' );
-						if ( $description || is_customize_preview() ) : ?>
-							<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-						<?php
-						endif; ?>
-					</div><!-- .hm-site-title -->
-				</div><!-- .site-branding-content -->
-			</div><!-- .site-branding -->
 
 			<?php 
 				if ( is_active_sidebar( 'sidebar-header' ) ) {
