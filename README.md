@@ -1,2 +1,1 @@
-# alcusnaini
-Wordpress child theme of Hitmag
+# Kumpulas kode Ci
